@@ -1,0 +1,22 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 175,
+      "comment": "Fresh Apple",
+      "date": "2023-08-30T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 144,
+      "comment": "This is Mango Product",
+      "date": "2023-08-24T18:30:00.000Z",
+      "id": 2
+    }
+  ]
+}

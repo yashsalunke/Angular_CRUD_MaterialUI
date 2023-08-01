@@ -1,0 +1,33 @@
+mat-form-field{
+    width: 100%;
+    
+}
+
+.some-custom-class-name {
+    &.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+      transform: none;
+      width: initial;
+      opacity: 0;
+    }
+    &.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-outline-gap {
+      border-top-color: initial;
+    }
+    
+    /* Not required, only used to reposition the label slightly
+    &.mat-form-field-appearance-outline .mat-form-field-label {
+      top: 1.54375em;
+      margin-top: -0.25em;
+    }
+    */
+  }
+
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
